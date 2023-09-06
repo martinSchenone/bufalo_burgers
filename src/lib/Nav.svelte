@@ -2,10 +2,16 @@
   class="nav_container w-full min-h-[120px] h-full flex justify-center items-center shadow-md max-h-[30vh]"
 >
   <nav class="navbar">
-    <ul class="text-4xl space-x-3 navbar-start lg:flex hidden">
-      <li class="hover:border-b border-neutral-600"><a href="#hero">HOME</a></li>
-      <li class="hover:border-b border-neutral-600"><a href="#burgers">BURGERS</a></li>
-      <li class="hover:border-b border-neutral-600"><a href="/">CONTACT</a></li>
+    <ul class="text-5xl space-x-3 navbar-start lg:flex hidden">
+      <li class="hover:border-b border-neutral-600">
+        <a href="#hero">HOME</a>
+      </li>
+      <li class="hover:border-b border-neutral-600">
+        <a href="#burgers">BURGERS</a>
+      </li>
+      <li class="hover:border-b border-neutral-600">
+        <a href="#contact">CONTACT</a>
+      </li>
     </ul>
     <div class="dropdown lg:hidden navbar-start z-10">
       <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -28,9 +34,9 @@
         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52
         "
       >
-        <li><a href="/app" class="text-2xl">HOME</a></li>
-        <li><a href="/app" class="text-2xl">BURGERS</a></li>
-        <li><a href="/app" class="text-2xl">CONTACTO</a></li>
+        <li><a href="#home" class="text-2xl">HOME</a></li>
+        <li><a href="#burgers" class="text-2xl">BURGERS</a></li>
+        <li><a href="#contact" class="text-2xl">CONTACTO</a></li>
       </ul>
     </div>
 
@@ -47,7 +53,7 @@
     </div>
 
     <div
-      class="bufalo text-3xl sm:text-4xl lg:text-6xl tracking-tighter navbar-end text-center"
+      class="bufalo text-3xl sm:text-4xl lg:text-7xl font-bold tracking-tighter navbar-end text-center px-1"
     >
       <h1>BUFALO BURGERS</h1>
     </div>
